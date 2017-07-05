@@ -1,0 +1,35 @@
+body{
+    height: 100%;
+}
+article{
+    margin-bottom: 20px;
+    height: 200px;
+    width: 850px;
+}
+#red, #blue, #yellow, #green{
+    border: solid;
+    border-width: 1px;
+    height: 200px;
+    width: 200px;
+    display: inline;
+    float: left;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+#mainContainer{
+    height: 400px;
+    width: 400px;
+    border: solid;
+    border-width: 1px;
+    margin-left: 200px;
+}
